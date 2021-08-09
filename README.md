@@ -22,7 +22,7 @@ Copy and add to bookmarks or open in the URL bar:
 data:text/html,<body contenteditable style=line-height:1.5;font-size:20px>
 ```
 
-[Try it!](https://htmlpreview.github.io/?https://github.com/zserge/awfice/blob/main/edit.html)
+[Try it!](https://htmlpreview.github.io/?https://github.com/diardy/awfice/blob/main/edit.html)
 
 ## Spreadsheet - 679 bytes!
 
@@ -34,7 +34,7 @@ Copy and add to bookmarks or open in the URL bar:
 data:text/html,<table id=t><script>z=Object.defineProperty,p=parseFloat;for(I=[],D={},C={},q=_=>I.forEach(e=>{try{e.value=D[e.id]}catch(e){}}),i=0;i<101;i++)for(r=t.insertRow(-1),j=0;j<27;j++)c=String.fromCharCode(65+j-1),d=r.insertCell(-1),d.innerHTML=i?j?"":i:c,i*j&&I.push(d.appendChild((f=>(f.id=c+i,f.onfocus=e=>f.value=C[f.id]||"",f.onblur=e=>{C[f.id]=f.value,q()},get=_=>{v=C[f.id]||"";if("="!=v.charAt(0))return isNaN(p(v))?v:p(v);with(D)return eval(v.slice(1))},a={get},z(D,f.id,a),z(D,f.id.toLowerCase(),a),f))(document.createElement`input`)))</script><style>#t{border-collapse:collapse}td{border:1px solid gray;text-align:right}input{border:none;width:4rem;text-align:center}</style>
 ```
 
-[Try it!](https://htmlpreview.github.io/?https://github.com/zserge/awfice/blob/main/calc.html)
+[Try it!](https://htmlpreview.github.io/?https://github.com/diardy/awfice/blob/main/calc.html)
 
 ## Drawing app - 327 bytes!
 
@@ -46,7 +46,7 @@ Copy and add to bookmarks or open in the URL bar:
 data:text/html,<canvas id=v><script>d=document,d.body.style.margin=0,P="onpointer",c=v.getContext`2d`,v.width=innerWidth,v.height=innerHeight,c.lineWidth=2,f=0,d[P+"down"]=e=>{f=e.pointerId+1;e.preventDefault();c.beginPath();c.moveTo(e.x,e.y)};d[P+"move"]=e=>{f==e.pointerId+1&&c.lineTo(e.x,e.y);c.stroke()},d[P+"up"]=_=>f=0</script></canvas>
 ```
 
-[Try it!](https://htmlpreview.github.io/?https://github.com/zserge/awfice/blob/main/draw.html)
+[Try it!](https://htmlpreview.github.io/?https://github.com/diardy/awfice/blob/main/draw.html)
 
 ## Presentation maker - 622 bytes!
 
@@ -67,7 +67,7 @@ Copy and add to bookmarks or open in the URL bar:
 data:text/html,<body><script>d=document;for(i=0;i<50;i++)d.body.innerHTML+='<div style="position:relative;width:90%;padding-top:60%;margin:5%;border:1px solid silver;page-break-after:always"><div contenteditable style=outline:none;position:absolute;right:10%;bottom:10%;left:10%;top:10%;font-size:5vmin>';d.querySelectorAll("div>div").forEach(e=>e.onkeydown=e=>{n=e.ctrlKey&&e.altKey&&e.keyCode-49,f="formatBlock",j="justify",x=[f,f,j+"Left",j+"Center",j+"Right","outdent","indent","insertUnorderedList"][n],y=["<h1>","<div>"][n],x&&d.execCommand(x,!1,y)})</script><style>@page{size:6in 8in landscape}@media print{*{border:0 !important}}
 ```
 
-[Try it!](https://htmlpreview.github.io/?https://github.com/zserge/awfice/blob/main/beam.html)
+[Try it!](https://htmlpreview.github.io/?https://github.com/diardy/awfice/blob/main/beam.html)
 
 ## Code editor - 686 bytes!
 
@@ -79,7 +79,7 @@ Copy and add to bookmarks or open in the URL bar:
 data:text/html,<body oninput="i.srcdoc=h.value+'<style>'+c.value+'</style><script>'+j.value+'</script>'"><style>textarea,iframe{width:100%;height:50%;}body{margin:0;}textarea{width: 33.33%;font-size:18px;padding:0.5em}</style><textarea placeholder="HTML" id="h"></textarea><textarea placeholder="CSS" id="c"></textarea><textarea placeholder="JS" id="j"></textarea><iframe id="i"></iframe><script>document.querySelectorAll("textarea").forEach((t)=>t.addEventListener("keydown",function(t){var e,s;"Tab"==t.key&&(t.preventDefault(),e=this.selectionStart,s=this.selectionEnd,this.value=this.value.substring(0,e)+"  "+this.value.substring(s),this.selectionStart=this.selectionEnd=e+1)}))</script></body>
 ```
 
-[Try it!](https://htmlpreview.github.io/?https://github.com/zserge/awfice/blob/main/code.html)
+[Try it!](https://htmlpreview.github.io/?https://github.com/diardy/awfice/blob/main/code.html)
 
 ## Contributions
 
