@@ -1,4 +1,5 @@
-# Awfice - the world smallest office suite
+# L'Awfice - the world smallest office suite for a Law Office!
+Please NOTE: This is only for a school project only for the sake of using multibranching. Original creator is zserge.
 
 Awfice is a collection of tiny office suite apps:
 
